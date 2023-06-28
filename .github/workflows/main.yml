@@ -25,6 +25,6 @@ jobs:
       - name: Deploy ke Firebase
         uses: w9jds/firebase-action@master
         with:
-          args: deploy --only hosting:resepmenusahur
+          args: deploy --only hosting:resepmasakantahunini
         env:
           FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
